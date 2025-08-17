@@ -13,3 +13,4 @@ ENV/
 .coverage
 htmlcov/
 uv.lock
+.vscode/
