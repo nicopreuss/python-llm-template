@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from llm_template.api.main import app
+from python_llm_template.api.main import app  # <- updated import
 
 
 def test_health_ok():
