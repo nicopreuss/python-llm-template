@@ -1,0 +1,23 @@
+# Ignore Git
+.git
+.gitignore
+
+# Ignore Python cache/compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore test and local dev stuff
+tests/
+.vscode/
+*.log
+
+# Ignore Docker itself
+Dockerfile
+.dockerignore
