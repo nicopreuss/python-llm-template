@@ -203,3 +203,23 @@ Import errors after renaming → grep and replace old package name; update pypro
 Interactive API docs available at /docs when the server runs.
 
 Consider adding Docker & .env handling when you start wiring real endpoints.
+
+
+🐳 Docker (optional)
+
+This template includes a minimal Dockerfile and .dockerignore so you can containerize your FastAPI app easily.
+
+Build the image
+
+docker build -t myapp .
+
+Run the container
+
+docker run -p 8000:8000 myapp
+
+Test it works
+
+curl http://127.0.0.1:8000/health
+# {"status":"ok"}
+
+You don’t need to run Docker while working on the template. Test it once you clone the template into a real project.
